@@ -1,0 +1,25 @@
+//contoh input nama dan memanggil hallo 
+
+#include <iostream> 
+
+#include <string> 
+
+using namespace std;
+
+void main () 
+
+{ 
+
+string nama; 
+
+cout << "Masukkan Nama Anda : "; 
+
+cin >> nama; 
+
+cout << "Hallo "; 
+
+cout << nama; 
+
+system("pause"); 
+
+}
