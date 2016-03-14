@@ -1,0 +1,35 @@
+//aritmetika penjumlahan dan pengurangan 
+
+#include <iostream> 
+
+using namespace std; 
+
+void main () 
+
+{ int bilangan_1;
+
+int bilangan_2;
+
+int hasil_jumlah;
+
+int hasil_kurang;
+
+cout << "Masukkan Bilangan 1 : " ; 
+
+cin >> bilangan_1;
+
+cout << "Masukkan Bilangan 2 : " ; 
+
+cin >> bilangan_2;
+
+hasil_jumlah = bilangan_1 + bilangan_2; //rumus penjumlahan 
+
+hasil_kurang = bilangan_1 - bilangan_2; //rumus pengurangan 
+
+cout << "Hasil Penjumlahan : " <<hasil_jumlah<<endl; //penjumlahan 
+
+cout << "Hasil Pengurangan : " <<hasil_kurang<<endl; //pengurangan 
+
+system("pause"); 
+
+}
