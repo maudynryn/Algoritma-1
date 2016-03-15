@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main()
+{
+    string nama_depan,nama_belakang,bulan;
+    int tgl_lahir,thn_lahir,umur;
+    int thn_sekarang = 2016;
+
+    cout <<"Biodata"<< endl;
+    cout <<"Nama Depan : ";
+    cout <<endl;
+    cin  >>nama_depan;
+    cout <<"Nama Belakang : "<<endl;
+    cin  >>nama_belakang;
+
+    cout <<"isi tanggal lahir"<< endl;
+    cout <<"Tanggal Lahir : "<< endl;
+    cin  >>tgl_lahir;
+    cout <<"Bulan : "<< endl;
+    cin  >>bulan;
+    cout <<"Tahun : "<< endl;
+    cin  >>thn_lahir;
+
+    umur = thn_lahir-thn_sekarang;
+
+    cout  <<endl;
+
+    cout  <<"*******"<<endl;
+    cout  <<"Biodata"<<endl;
+    cout  <<"*******"<<endl;
+
+    cout  <<"Nama                   : "<<nama_depan<<" "<<nama_belakang<<endl;
+    cout  <<"Tanggal,Bulan,Tahun    : "<<tgl_lahir<<" "<<bulan<<" "<<thn_lahir<<endl;
+    cout  <<"Umur                   : "<<umur<<" "<<endl;
+}
